@@ -21,11 +21,9 @@ export const fetchdata = async () => {
         //console.log(modifieddata);
         return modifieddata;
     } catch (error) {
-        console.log("heyypari");
+        console.log("Data not found");
     }
 }
-
-
 
 export const fetchdailydata=async()=>{
     const data=[
